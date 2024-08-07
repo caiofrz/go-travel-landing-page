@@ -1,0 +1,32 @@
+h4,
+.mini-about .hiligths {
+  color: var(--secondary);
+}
+
+.banner img {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  width: 70%;
+}
+
+.mini-about img,
+.trust-us video {
+  width: 70%;
+}
+
+.carousel-inner img {
+  max-height: 500px;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width: 767px) {
+  .banner .image {
+    margin-top: 1em;
+  }
+
+  main h1,
+  main h4 {
+    text-align: center;
+  }
+}

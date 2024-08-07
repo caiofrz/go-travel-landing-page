@@ -1,0 +1,9 @@
+main .about {
+  background-color: var(--bg-white);
+  width: 90%;
+  top: -7rem;
+}
+
+.about img {
+  width: 70%;
+}

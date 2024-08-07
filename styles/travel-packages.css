@@ -1,0 +1,10 @@
+.card-img-overlay {
+  justify-self: center;
+}
+
+.card-panel {
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 8rem;
+}
